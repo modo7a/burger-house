@@ -1,0 +1,401 @@
+    /* Theme Name: Burger
+Them Coder: MoMo
+ */
+    /* Start Uppdr Bar */
+    
+    .upper-bar {
+        background-color: #ffc656;
+        color: #FFF;
+    }
+    
+    .upper-bar .info {
+        margin: 15px 0;
+        color: #3d2514;
+    }
+    
+    @media(max-width:576px) {
+        .upper-bar .info:first-child {
+            margin-bottom: 0;
+        }
+    }
+    
+    .upper-bar span {
+        color: #3d2514;
+    }
+    
+    .upper-bar .get-quote {
+        display: block;
+
+        padding: 2px 10px;
+        margin-left: 20px;
+        color: rgba(61, 37, 20, 255);
+        text-align: right;
+    }
+    
+    @media(max-width:576px) {
+        .upper-bar .get-quote {
+            border: none;
+            margin-left: 5px;
+        }
+    }
+    /* End upper bar */
+    /* Start Navbar */
+    
+    .navbar-brand>span {
+        font-size: 40px;
+    }
+    
+    .navbar-brand span:first-child {
+        color: #08526d;
+        font-weight: bold;
+    }
+    
+    .navbar-brand span:last-child {
+        color: #ed1d24;
+    }
+    
+    .navrbar-nav .nav-link {
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-left: 16px;
+        color: #08526d;
+    }
+    
+    .navbar-nav .active>.nav-link {
+        color: #ed1d24 !important;
+    }
+    /* End Navbar */
+    /* Start Slider */
+    
+    .slider {
+        background-color: #DDD;
+    }
+    
+    .slider .carousel-inner {
+        display: flex;
+        align-items: left;
+        justify-content: start;
+    }
+    
+    @media (max-width:768px) {
+        .slider .carousel-inner {
+            justify-content: center;
+        }
+    }
+    
+    .slider .carousel-inner h1 {
+        color: #3d2514;
+        position: absolute;
+        z-index: 3;
+        font-size: 70PX;
+        max-width: 900PX;
+        line-height: 1.5;
+        left: 100px;
+    }
+    
+    @media (max-width:768px) {
+        .slider .carousel-inner h1 {
+            font-size: 40PX;
+            max-width: 100%;
+            line-height: 1.5;
+            left: auto;
+            text-align: center;
+        }
+    }
+    
+    @media (max-width:992px) {
+        .slider .carousel-inner h1 {
+            font-size: 50PX;
+        }
+    }
+    
+    .slider .carousel-inner h1 span {
+        
+        color: #3d2514;
+        display: inline-block;
+        padding: 2px 10px;
+    }
+    
+    .slider .carousel-inner .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, .1);
+        z-index: 2;
+    }
+    
+    .slider .carousel-item {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .slider .carousel-one {
+        background-image: url('../images/burger.png');
+        background-color: #ffc656;
+    }
+    
+    .slider .carousel-two {
+        background-image: url('../images/fries.png');
+        background-color: #ffc656;
+    }
+    
+    .slider .carousel-three {
+        background-image: url('../images/drink.png');
+        background-color: #ffc656;
+    }
+    
+    .slider .carousel-indicators li {
+        height: 8px;
+        cursor: pointer;
+    }
+    /* End Slider */
+    /* Start features */
+    
+    .features {
+        padding: 50px 0;
+    }
+    
+    .features i {
+        background-color: #ed1d24;
+        color: #FFF;
+        padding: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .features h3 {
+        color: #3d2514;
+        font-size: 22px;
+    }
+    
+    .features p {
+        color: #3d2514;
+        margin-bottom: 40px;
+    }
+    /* En features */
+    /* Start overview */
+    
+    .overview {
+        padding: 100px 0;
+        background-color: white;
+    }
+    
+    .overview h2 {
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 30px;
+        color: #3d2514;
+    }
+    
+    @media (max-width:992px) {
+        .overview h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+    }
+    
+    .overview p {
+        font-size: 20px;
+        line-height: 2;
+        width: 80%;
+        margin: 0 auto 15px;
+        color: #6a6a6a;
+    }
+    
+    @media (max-width:992px) {
+        .overview p {
+            width: 100%;
+        }
+    }
+    
+    .overview h4 {
+        letter-spacing: 2px;
+        font-weight: normal;
+        color: #8b8b8a8a;
+        margin-bottom: 40px;
+    }
+    
+    .overview button {
+        background-color: #ed1d24;
+        font-size: 20px;
+        padding: 10px 20px;
+        border: ipx solid #ed1d24;
+        font-weight: bold;
+        color: white;
+    }
+
+
+    .features button {
+        background-color: #ed1d24;
+        font-size: 20px;
+        padding: 10px 20px;
+        border: ipx solid #ed1d24;
+        font-weight: bold;
+        color: white;
+    }
+    /* End overview */
+
+
+   
+    /* Why choose us */
+    
+    .choose-us img {
+        max-width: 100%;
+    }
+    
+    .choose-us .info {
+        padding: 0;
+    }
+    
+    .choose-us .info:last-child {
+        background-color: white;
+        color: #3d2514;
+        padding-top: 50px;
+    }
+    
+    .choose-us .h1 {
+        margin: 40px;
+    }
+    
+    .choose-us p {
+        margin: 40px;
+        line-height: 2;
+        font-size: 18px;
+    }
+    
+    .choose-us .read-more {
+        display: inline-block;
+        background-color: #ed1d24;
+        font-size: 20px;
+        padding: 10px 20px;
+        border: 1px solid #ed1d24;
+        font-weight: bold;
+        color: white;
+        margin: 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    /* Why choose us */
+   
+ 
+    /* Start footer */
+    
+    .footer {
+        padding: 100px 0;
+        background-image: url('../images/footer.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .footer .site-info h2 {
+        font-size: 50px;
+        margin-bottom: 35px;
+    }
+    
+    .footer .site-info h2 span:first-child {
+        color: white;
+        font-weight: bold;
+    }
+    
+    .footer .site-info h2 span:last-child {
+        color: white;
+    }
+    
+    .footer .site-info p {
+        line-height: 1.8;
+        color: white;
+    }
+    
+    .footer .site-info a {
+        color: #08526d;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .footer .site-info a:before {
+        font-family: 'FontAwesome';
+        content: '\f138';
+        display: inline-block;
+        margin-right: 5px;
+    }
+    
+    .footer .helpful-links h2,
+    .footer .contact h2 {
+        font-size: 22px;
+        color: white;
+        margin-bottom: 68px;
+    }
+    
+    .footer .helpful-links ul li:before {
+        font-family: 'FontAwesome';
+        content: '\f054';
+        display: inline-block;
+        margin-right: 5px;
+        color: white;
+        font-size: 12px;
+        position: relative;
+        top: -1px;
+    }
+    
+    .footer .contact ul li {
+        margin-bottom: 24px;
+        color: white;
+    }
+    .footer .contact ul li a {
+        color: white;
+    }
+    
+    @media (max-width:992px) {
+        .footer .helpful-links h2,
+        .footer .contact h2 {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .footer .contact ul li {
+            margin-bottom: 5px;
+        }
+    }
+    /* End footer */
+    /* Start copyright */
+    
+    .copyright {
+        border-top: 1px solid #c0c0c0;
+        /* padding: 20px; */
+    }
+    
+    .copyright ul {
+        margin: 0;
+    }
+    
+    .copyright ul li {
+        display: inline-block;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    
+    .copyright ul li a {
+        color: white;
+    }
+    
+    .copyright ul li a:hover {
+        color: white;
+    }
+    
+    .copyright .row .col-sm-6 span:first-child {
+        color: white;
+        font-weight: bold;
+    }
+    
+    .copyright .row .col-sm-6 span {
+        color: white;
+    }
+    .copyright .row div {
+        color: white;
+    }
+    /* End copy right */
